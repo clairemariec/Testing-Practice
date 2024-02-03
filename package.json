@@ -1,0 +1,14 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "#version 1",
+  "main": "copilot-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "claire": "echo \"claire is the best2\"",
+    "hello-world": "k6 run ./load-test/hello-world.js"
+  },
+
+  "author": "",
+  "license": "ISC"
+}
