@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+        color: teal;
+      }
+
+      h2 {
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid teal;
+        padding: 15px;
+      }
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      button {
+        width: 100%;
+        background: teal;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+        Massage
+    </h1>
+    <h2>
+      Benefits
+    </h2>
+    <img
+      src="https://lh4.googleusercontent.com/DdD8AFX8IJGllpcoOjogeDaEHveXKkvEB7NbmkdiyZISdktP_yNtYJI2GZdt8MeLQwoWfar1gF9K6iHxmkVuGMypqKbcWa5AgJg62xSEuyqn_Lc-LHxtfi9BBAEYqeEnNA=w1280"
+      alt=""
+    />
+    <p>
+      Massage helps to relax the body and mind, releaving tension and reducing stress levels. 
+      Just one session a month can make meaningful change in your dy to day life. 
+      There are lots of styles of massage available, 
+      and a good therapist will work with you to discover your treatment needs and goals in order to pick the best style for you.
+      <br />
+      <br />
+      <a href="https://www.salixtherapies.com">
+        Learn more at Salix Therapies
+      </a>
+    </p>
+    <button>
+      Join the mailing list
+    </button>
+    <footer>
+      Coded by 👩
+      <a href="https://www.salixtherapies.com">
+        Salix Therapies
+      </a>
+    </footer>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks, ${name}! We'll be in touch!`
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
